@@ -68,7 +68,7 @@ def Test_Accuracy(DATADIR, Trained_Model_Name):
         print('Class Label','Predicted Label','Probabilities')
         for i in range(len(class_probabilities)):
             print(y[i], '  ', predictions[i],'    ----',np.round(max(class_probabilities[i])*100,2),'%')
-    elif (query[i] == 'n'):
+    elif (query[0] == 'n'):
         print("Thank you!")
     else:
         print("Given answer is incorrect")

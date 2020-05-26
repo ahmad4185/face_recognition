@@ -26,6 +26,7 @@ After this, You have to give following command to create your new environment. Y
 	
 ## D. Cloning the face_recognition repository
 For clonning the reporistory, you have to write following command:
+
 	git clone https://github.com/Rimpy671/face_recognition.git
 
 ## E. The details of the files and folders are given below: 

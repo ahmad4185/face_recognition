@@ -24,7 +24,7 @@ After this, You have to give following command to create your new environment. Y
 	pip install scikit-learn
 	pip install matplotlib
 	
-## D Cloning the face_recognition repository
+## D. Cloning the face_recognition repository
 For clonning the reporistory, you have to write following command:
 	git clone https://github.com/Rimpy671/face_recognition.git
 

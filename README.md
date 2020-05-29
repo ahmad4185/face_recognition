@@ -8,17 +8,21 @@ https://www.anaconda.com/products/individual
 
 After going to this link, you can then click on 'Download' and then install it. 
 
-## B. Activation of Environment
+## B. Creation & Activation of Environment
 
 After this, You have to give following command to create your new environment. You can choose any name other than 'facerecognition'
 
-	conda activate --name facerecognition python=3.6
+	conda create --name facerecognition python=3.6
+	
+Activate the environment by using the following command:
+
+	conda avtivate facerecognition
 
 
 ## C. Install the following dependecies one by one
 
 	pip install opencv-python
-	pip install opencv-numpy
+	pip install numpy
 	pip install opencv-contrib-python
 	pip install pandas
 	pip install scikit-learn

@@ -16,7 +16,7 @@ After this, You have to give following command to create your new environment. Y
 	
 Activate the environment by using the following command:
 
-	conda avtivate facerecognition
+	conda activate facerecognition
 
 
 ## C. Install the following dependecies one by one
